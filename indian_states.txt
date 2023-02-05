@@ -1,0 +1,14 @@
+import json
+indian_states = {
+    "punjab": "chandigarh",
+    "haryana": "chandigarh",
+    "rajasthan": "jaipur",
+    "Bihar": "Patna",
+    "Chhattisgarh": "Raipur",
+    "Goa": "Panaji",
+    "Gujarat": "Gandhinagar"
+}
+
+with open("indian_states.json", "w") as f:
+    json.dump(indian_states, f)
+    print(indian_states)
